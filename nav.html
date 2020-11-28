@@ -8,11 +8,13 @@
         clear: both;
         display: table;
       }
+
       ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
         background-color: rgb(173, 230, 224);
+        float: right;
       }
       li {
         float: left;
@@ -29,14 +31,20 @@
       li a:hover {
         color: red;
       }
+      div {
+        display: box;
+      }
     </style>
   </head>
   <body>
-    <ul class="clearfix">
-      <li><a href="#Home">Home</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#Sign Up">Sign Up</a></li>
-    </ul>
+    <div class="container clearfix">
+      <ul class="clearfix">
+        ]
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Sign Up">Sign Up</a></li>
+      </ul>
+    </div>
   </body>
 </html>
